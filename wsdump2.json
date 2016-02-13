@@ -1,0 +1,207 @@
+[
+  {
+    "header": {
+      "msg_id": "9761242A018742C385A4A4AC54000A53",
+      "username": "username",
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "msg_type": "execute_request",
+      "version": "5.0"
+    },
+    "metadata": {},
+    "content": {
+      "code": "var Cloudant = require(\"cloudant\");\nvar examples = Cloudant({account: 'examples'});\nvar animaldb = examples.db.use('animaldb');\nvar res = animaldb.get('zebra', function(err, data){console.log(data);});",
+      "silent": false,
+      "store_history": true,
+      "user_expressions": {},
+      "allow_stdin": true,
+      "stop_on_error": true
+    },
+    "buffers": [],
+    "parent_header": {},
+    "channel": "shell"
+  },
+  {
+    "metadata": {},
+    "content": {
+      "execution_state": "idle"
+    },
+    "channel": "iopub",
+    "buffers": [],
+    "msg_type": "status",
+    "parent_header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "username": "username",
+      "msg_type": "kernel_info_request",
+      "version": "5.0",
+      "msg_id": "6D2691A1A2FD49FD81A70028E7D04EBE"
+    },
+    "header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "date": "2016-02-13T14:38:24.250869",
+      "msg_type": "status",
+      "username": "username",
+      "version": "5.0",
+      "msg_id": "e223993a-6c62-4c12-a456-0d29e324fc45"
+    },
+    "msg_id": "e223993a-6c62-4c12-a456-0d29e324fc45"
+  },
+  {
+    "metadata": {},
+    "content": {
+      "execution_state": "busy"
+    },
+    "channel": "iopub",
+    "buffers": [],
+    "msg_type": "status",
+    "parent_header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "username": "username",
+      "msg_type": "execute_request",
+      "version": "5.0",
+      "msg_id": "9761242A018742C385A4A4AC54000A53"
+    },
+    "header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "date": "2016-02-13T14:38:24.277647",
+      "msg_type": "status",
+      "username": "username",
+      "version": "5.0",
+      "msg_id": "15665493-8667-4f59-8b4f-13b89dd29aea"
+    },
+    "msg_id": "15665493-8667-4f59-8b4f-13b89dd29aea"
+  },
+  {
+    "metadata": {},
+    "content": {
+      "execution_count": 1,
+      "code": "var Cloudant = require(\"cloudant\");\nvar examples = Cloudant({account: 'examples'});\nvar animaldb = examples.db.use('animaldb');\nvar res = animaldb.get('zebra', function(err, data){console.log(data);});"
+    },
+    "channel": "iopub",
+    "buffers": [],
+    "msg_type": "execute_input",
+    "parent_header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "username": "username",
+      "msg_type": "execute_request",
+      "version": "5.0",
+      "msg_id": "9761242A018742C385A4A4AC54000A53"
+    },
+    "header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "date": "2016-02-13T14:38:24.282749",
+      "msg_type": "execute_input",
+      "username": "username",
+      "version": "5.0",
+      "msg_id": "5ec373b4-42d4-44d0-875d-e352a7a17133"
+    },
+    "msg_id": "5ec373b4-42d4-44d0-875d-e352a7a17133"
+  },
+  {
+    "metadata": {},
+    "content": {
+      "execution_state": "idle"
+    },
+    "channel": "iopub",
+    "buffers": [],
+    "msg_type": "status",
+    "parent_header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "username": "username",
+      "msg_type": "execute_request",
+      "version": "5.0",
+      "msg_id": "9761242A018742C385A4A4AC54000A53"
+    },
+    "header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "date": "2016-02-13T14:38:24.283235",
+      "msg_type": "status",
+      "username": "username",
+      "version": "5.0",
+      "msg_id": "034ec9fd-3682-4f3c-9c3c-a01b15a7a46b"
+    },
+    "msg_id": "034ec9fd-3682-4f3c-9c3c-a01b15a7a46b"
+  },
+  {
+    "metadata": {},
+    "content": {
+      "user_expressions": {},
+      "execution_count": 1,
+      "payload": [],
+      "status": "ok"
+    },
+    "channel": "shell",
+    "buffers": [],
+    "msg_type": "execute_reply",
+    "parent_header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "username": "username",
+      "msg_type": "execute_request",
+      "version": "5.0",
+      "msg_id": "9761242A018742C385A4A4AC54000A53"
+    },
+    "header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "date": "2016-02-13T14:38:24.900222",
+      "msg_type": "execute_reply",
+      "username": "username",
+      "version": "5.0",
+      "msg_id": "f8258f48-de8c-4a40-ad44-1259862eb336"
+    },
+    "msg_id": "f8258f48-de8c-4a40-ad44-1259862eb336"
+  },
+  {
+    "metadata": {},
+    "content": {
+      "data": {
+        "text/plain": "undefined"
+      },
+      "execution_count": 1,
+      "metadata": {}
+    },
+    "channel": "iopub",
+    "buffers": [],
+    "msg_type": "execute_result",
+    "parent_header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "username": "username",
+      "msg_type": "execute_request",
+      "version": "5.0",
+      "msg_id": "9761242A018742C385A4A4AC54000A53"
+    },
+    "header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "date": "2016-02-13T14:38:24.900825",
+      "msg_type": "execute_result",
+      "username": "username",
+      "version": "5.0",
+      "msg_id": "b39be7e8-f8d2-406a-b27b-e73ec4386575"
+    },
+    "msg_id": "b39be7e8-f8d2-406a-b27b-e73ec4386575"
+  },
+  {
+    "metadata": {},
+    "content": {
+      "name": "stdout",
+      "text": "{ _id: 'zebra',\n  _rev: '3-750dac460a6cc41e6999f8943b8e603e',\n  wiki_page: 'http://en.wikipedia.org/wiki/Plains_zebra',\n  min_length: 2,\n  max_length: 2.5,\n  min_weight: 175,\n  max_weight: 387,\n  class: 'mammal',\n  diet: 'herbivore' }\n"
+    },
+    "channel": "iopub",
+    "buffers": [],
+    "msg_type": "stream",
+    "parent_header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "username": "username",
+      "msg_type": "execute_request",
+      "version": "5.0",
+      "msg_id": "9761242A018742C385A4A4AC54000A53"
+    },
+    "header": {
+      "session": "EE3EABD3DAE84D20815648601E39BBD1",
+      "date": "2016-02-13T14:38:25.657593",
+      "msg_type": "stream",
+      "username": "username",
+      "version": "5.0",
+      "msg_id": "ece9451a-203e-4949-a0f6-bbe1206d1add"
+    },
+    "msg_id": "ece9451a-203e-4949-a0f6-bbe1206d1add"
+  }
+]
